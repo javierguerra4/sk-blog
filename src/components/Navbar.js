@@ -3,7 +3,8 @@ import React from "react";
 function Navbar() {
   return (
     <nav className="Navbar">
-      <ul>
+      <h1 className="header-one">Stephen King Blog</h1>
+      <ul className="navbar-links">
         <li>
           <a href="/about">About</a>
         </li>
