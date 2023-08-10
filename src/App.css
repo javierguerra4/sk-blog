@@ -51,12 +51,14 @@
   gap: 20px;
   justify-content: flex-end;
 }
-.header-one {
-  position: relative;
+.header-container {
   display: flex;
-  flex-direction: column;
+  justify-content: center;
   align-items: center;
-  justify-content: space-between;
+  padding: 30px 20px;
+}
+.header-one {
   background-color: blue;
   font-size: 90px;
+  margin: 0;
 }
