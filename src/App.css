@@ -1,5 +1,14 @@
 .Navbar {
-  background-color: #28282b;
+  background: radial-gradient(#1f0e30 0%, #030016 40%) 0vw 20vh no-repeat
+    #030016;
+
+  filter: url("#noise") contrast(105%);
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  /* ******* */
   color: white;
   position: fixed;
   top: 0;
