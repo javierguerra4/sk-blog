@@ -8,7 +8,9 @@
   padding: 10px;
   z-index: 100; /* Ensure the navigation bar is on top of other content */
 }
-
+.header-one {
+  font-size: 40px; /* Increase the font size for the heading */
+}
 .header-container {
   display: flex;
   justify-content: space-between;
@@ -17,6 +19,7 @@
 
 .links-container {
   display: flex;
+  align-items: center;
 }
 
 .navbar-links {
@@ -28,9 +31,24 @@
 
 .navbar-links li {
   margin: 0 10px;
+  font-size: 25px;
+  margin-right: 50px;
 }
 
 .content {
   margin-top: 70px; /* Add margin to prevent content from being hidden under the navbar */
   padding: 20px;
+}
+
+/* *********Background******* */
+
+:root {
+  background: radial-gradient(#1f0e30 0%, #030016 40%) -10vw 20vh no-repeat #030016;
+
+  filter: url("#noise") contrast(105%);
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
 }

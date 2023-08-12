@@ -5,7 +5,6 @@ function Navbar() {
     <nav className="Navbar">
       <div className="header-container">
         <h1 className="header-one">Stephen King Blog</h1>
-
         <div className="links-container">
           <ul className="navbar-links">
             <li>
