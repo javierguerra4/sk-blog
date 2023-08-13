@@ -1,5 +1,5 @@
 .Navbar {
-  background: radial-gradient(#1f0e30 0%, #030016 40%) 0vw 20vh no-repeat
+  /* background: radial-gradient(#1f0e30 0%, #030016 40%) 0vw 20vh no-repeat
     #030016;
 
   filter: url("#noise") contrast(105%);
@@ -7,7 +7,7 @@
   padding: 0;
   width: 100vw;
   height: 100vh;
-  position: absolute;
+  position: absolute; */
   /* ******* */
   color: white;
   position: fixed;
@@ -43,12 +43,19 @@
   font-size: 25px;
   margin-right: 50px;
 }
+.no-underline {
+  text-decoration: none;
+}
 
 .content {
   margin-top: 70px; /* Add margin to prevent content from being hidden under the navbar */
   padding: 20px;
 }
 
+.about-header {
+  color: hotpink;
+  z-index: 1;
+}
 /* *********Background******* */
 
 :root {

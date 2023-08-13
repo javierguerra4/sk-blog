@@ -8,10 +8,14 @@ function Navbar() {
         <div className="links-container">
           <ul className="navbar-links">
             <li>
-              <a href="/about">About</a>
+              <a className="no-underline" href="/about">
+                About
+              </a>
             </li>
             <li>
-              <a href="/books">Books</a>
+              <a className="no-underline" href="/books">
+                Books
+              </a>
             </li>
           </ul>
         </div>
