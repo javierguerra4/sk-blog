@@ -55,6 +55,14 @@
 .about-header {
   color: hotpink;
   z-index: 1;
+  text-align: center;
+}
+.about-paragraph {
+  color: hotpink;
+  text-align: center;
+  margin: auto;
+  width: 750px;
+  padding: 40px;
 }
 /* *********Background******* */
 
